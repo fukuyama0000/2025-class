@@ -1,6 +1,0 @@
-document.getElementById('draw').addEventListener('click',function(){
-    const omikujiResults = ['大吉','中吉','小吉','末吉','凶','大凶'];
-    const result=omikujiResults[Math.floor(Math.random() * omikujiResults.length)];
-    document.getElementById('result').textContent=`あなたの運勢は... ${result}!`;//バッククオート
-})
-//drawという名前のボタンがclickされたときに起こる処理を記述する
