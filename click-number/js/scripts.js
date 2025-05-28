@@ -3,7 +3,7 @@ for(var num=9;num>0;num--){
     var elm=document.createElement("button");
     elm.innerHTML=num;
     elm.setAttribute("id",num);
-    elm.setAttribute("class","circle");
+    elm.setAttribute("class","circle"+(Math.floor(Math.random() * 6)));
     var function_name = "remove(" + num + ")" 
     elm.setAttribute("onclick",function_name);
     document.getElementById("main").appendChild(elm);
